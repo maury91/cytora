@@ -1,0 +1,13 @@
+// Override default variables before the import
+$body-color: #c8c8c8;
+$body-bg: #000;
+
+$navbar-dark-brand-color: #FFE300;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.btn:active.btn-link,.btn:focus.btn-link {
+  outline: none !important;
+  box-shadow: none;
+}
